@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto poo</title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        body{
+            background-image: url(img/wall.jpg);
+        }
+    </style>
+    <script src="js/script1.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Controle de estacionamento diário</h1>
+
+    </header>
+    <main>
+    <div class="Title">
+        <h2>Cadastre os carros que estão no estacionamento</h2>
+        <span>Lista de carros</span>
+
+    </div>
+    <div class="card">
+        <div class="lineInput">
+            <label>Carro</label>
+            <input type="text" id='carro' placeholder="Nome"style="width: 10cm;" >
+        </div>
+        <div class="lineInput">
+            <label>Valor pago</label>
+            <input type="number" id='valor' placeholder="Preço" style="width: 10cm">
+        </div>
+        <div class="lineInput">
+            <label for="turno">Turno</label>
+            <select id="turno" style="width: 10.6cm;" placeholder="">
+            <option id="vazio" value="" disabled selected hidden>Escolha o Turno</option>
+            <option value="Tarde">Tarde</option>
+            <option value="Noite">Noite</option>
+            <option value="Manhã">Manhã</option>
+            </select>
+        </div>
+        <button onclick="produto.salvar()" id="btn1">Salvar</button>
+        <button onclick="produto.cancelar()">cancelar</button>
+    </div>
+    <div id="teste" class="content">
+        <table border="1">
+            <thead class="content">
+                <th class="center">ID</th>
+                <th>Carro</th>
+                <th>Valor</th>
+                <th>Turno</th>
+                <th class="center">Ações</th>
+
+            </thead>
+            <tbody id="tbody">
+
+            </tbody>
+
+        </table>
+        <table class="calculos">
+            <thead class="content">
+                <th>Lucro total obtido</th>
+            </thead>
+            <tbody>
+                <th class="lucro" id="lucro"></th>
+            </tbody>
+        </table>
+        <table class="calculos2">
+            <thead class="content">
+                <th>Total por turnos</th>
+            </thead>
+            <tbody>
+                <th class="lucro" id="calturno"></th>
+            </tbody>
+        </table>
+    </div>
+
+    </main>
+
+</body>
+</html>

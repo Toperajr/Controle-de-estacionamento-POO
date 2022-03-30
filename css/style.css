@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+}
+header {
+    background-image: url(/img/wall.jpg);
+    padding: 10px;
+    color: whitesmoke;
+    text-align: center;
+
+}
+main {
+    padding: 30px 50px;
+    color: whitesmoke;
+    font-size: 25px;
+}
+.card {
+    background-image: url(/img/wall.jpg);
+    border: 0px #ccc;
+    padding: 20px;
+    margin-top: 15px;
+    border-radius: 5px;
+    font-family: 'Franklin Gothic Medium';
+}
+.lineInput {
+    display: grid;
+    margin-bottom: 10px;
+}
+input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    outline: 0;
+}
+button {
+    border: 0px;
+    padding: 10px;
+    outline: 0;
+    background-color: black;
+    color: #ccc;
+    border-radius: 3px;
+}
+table td img {
+    width: 22px;
+
+}
+.center {
+    text-align: center;
+}
+table th {
+    background-color: gray;
+    text-align: left;
+    padding: 1px 5px;
+    color: black;
+}table th td {
+    text-align: left;
+    padding: 1px 5px;
+}
+table {
+    border-collapse: collapse;
+    border: 1px solid #ccc;
+    width: 100%;
+}
+body {
+    background-image: url(/img/wall.jpg) no-repeat center center fixed;
+    background-color: #cccccc;
+    background-size:cover;
+    background-attachment: fixed;
+}
+h2, span{
+    color: whitesmoke;
+    font-size: 20px;
+    font-synthesis: style weight;
+    margin-left: 0.5cm;
+}
+h1 {
+    font-family: fantasy;
+    color-interpolation-filters: linearRGB;
+    color: whitesmoke;
+    font-size: 70px;
+}
+.content {
+    width: 10.6cm;
+    margin-top: 0px;
+    margin-left: 0.5cm;
+    font-size: 25px;
+    color: black;
+    background-color: beige;
+}
+.fonte {
+    font-size: 18px;
+    text-align: center;
+
+}
+.lucro {
+    width: 10.6cm;
+    margin-top: 0px;
+    margin-left: 0,5cm;
+    font-size: 25px;
+    color: black;
+    background-color: beige;
+}
+.calculos {
+    position: fixed;
+    bottom: 9.9cm;
+    right: 5cm;
+    width: 300px;
+    border: 1px solid #ccc;
+}
+.calculos2 {
+    position: fixed;
+    bottom: 4.0cm;
+    right: 5cm;
+    width: 500px;
+    border: 1px solid #ccc;
+}
